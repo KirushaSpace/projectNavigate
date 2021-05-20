@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Навигация по онлайн трансляциям</title>
+    <link href="assets/css/styles.css" rel="stylesheet" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body class="body">
+
+
+<header class="header">
+	<div class="container">
+		<nav class="nav">
+			<a href="https://urfu.ru" class="urfu_logo" target="_blank"></a>
+			<a class="phone_link" href="tel: +7 (343) 375-44-44">+7 (343) 375-44-44</a>
+		</nav>
+	</div>
+</header>
+
+<div class="container">
+	<div class="level_menu">
+		<button class="level_btn bakalavriat_btn" type = "radio" name="level_btn" value="bakalavriat_btn">
+			<div class="btn_text">Бакалавриат</div>
+		</button>
+		<button class="level_btn magistratura_btn" type = "radio" name="level_btn" value="magistratura_btn">
+			<div class="btn_text">Магистратура</div>
+		</button>
+		<button class="level_btn aspirantura_btn" type = "radio" name="level_btn" value="aspirantura_btn">
+			<div class="btn_text">Аспирантура</div>
+		</button>
+	</div>
+</div>
+
+<div class="container">
+	<div class="main_nav">
+		<div class="institutes_nav">
+			<h1>Институт</h1>
+			<div class="nav_inner">
+				<div class="nav_item">
+					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
+					<div class="nav_text">ИЕНиМ</div>
+				</div>
+				<div class="nav_item">
+					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
+					<div class="nav_text">ИНМиТ</div>
+				</div>
+				<div class="nav_item">
+					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
+					<div class="nav_text">ИнФО</div>
+				</div>
+				<div class="nav_item">
+					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
+					<div class="nav_text">ИнЭУ</div>
+				</div>
+				<div class="nav_item">
+					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
+					<div class="nav_text">ИРИТ-РТФ</div>
+				</div>
+				<div class="nav_item">
+					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
+					<div class="nav_text">ИСА</div>
+				</div>
+				<div class="nav_item">
+					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
+					<div class="nav_text">ИТОО</div>
+				</div>
+				<div class="nav_item">
+					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
+					<div class="nav_text">ИФКСиМП</div>
+				</div>
+				<div class="nav_item">
+					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
+					<div class="nav_text">УГИ</div>
+				</div>
+				<div class="nav_item">
+					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
+					<div class="nav_text">УралЭНИН</div>
+				</div>
+				<div class="nav_item">
+					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
+					<div class="nav_text">ФТИ</div>
+				</div>
+				<div class="nav_item">
+					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
+					<div class="nav_text">ХТИ</div>
+				</div>
+				<div class="nav_item">
+					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
+					<div class="nav_text">ВУЦ</div>
+				</div>
+			</div>
+			<h2>Дополнительно</h2>
+			<div class="nav_inner">
+				<div class="nav_item">
+					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
+					<div class="nav_text">ИОТ</div>
+				</div>
+				<div class="nav_item">
+					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
+					<div class="nav_text">Программы обучения</div>
+				</div>
+				<div class="nav_item">
+					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
+					<div class="nav_text">Зачисление</div>
+				</div>
+				<div class="nav_item">
+					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
+					<div class="nav_text">Дни открытых дверей</div>
+				</div>
+				<div class="nav_item">
+					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
+					<div class="nav_text">Сериал "Прием, УрФУ!"</div>
+				</div>
+			</div>
+		</div>
+		<div class="videos_stack">
+			<form action="" method="get" class="videos_search">
+				<input class="search" name="s" placeholder="Поиск" type="search">
+				<button class="search_btn" type="submit"></button>
+			</form>
+			<div class="videos_list">
+				<video id="player" width="100%" height="auto" autoplay="autoplay" controls>
+ 					<source src="https://vk.com/video-22301031_456239388" type="video/mp4" codecs="avc1.42E01E, mp4a.40.2">
+				</video>
+				<video id="player" width="100%" height="auto" autoplay="autoplay" controls>
+ 					<source src="https://vk.com/video-22301031_456239388" type="video/mp4" codecs="avc1.42E01E, mp4a.40.2">
+				</video>
+				<video id="player" width="100%" height="auto" autoplay="autoplay" controls>
+ 					<source src="https://vk.com/video-22301031_456239388" type="video/mp4" codecs="avc1.42E01E, mp4a.40.2">
+				</video>
+				<video id="player" width="100%" height="auto" autoplay="autoplay" controls>
+ 					<source src="https://vk.com/video-22301031_456239388" type="video/mp4" codecs="avc1.42E01E, mp4a.40.2">
+				</video>
+
+			</div>
+		</div>
+		<div class="events_nav">
+			<h1><a href="https://urfu.ru/ru/events/" target="_blank">Мероприятия</a></h1>
+			<div class="event_item">
+				<a class="event_photo event1" href="https://urfu.ru/ru/events/10865/" target="_blank"></a>
+				<a class="event_name" href="https://urfu.ru/ru/events/10865/" target="_blank">Стипендиальная программа «En+group/Русал»</a>
+				<div class="event_date">20 мая – 30 июня</div>
+				<div class="event_description">Проходит прием заявок</div>
+			</div>
+			<div class="event_item">
+				<a class="event_photo event2" href="https://urfu.ru/ru/events/10886/" target="_blank"></a>
+				<a class="event_name" href="https://urfu.ru/ru/events/10886/" target="_blank">III Форум обеспокоенных родителей</a>
+				<div class="event_date">1 июня</div>
+				<div class="event_description">Что ждет абитуриентов 2021 года?</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+</body>
+
+</html>

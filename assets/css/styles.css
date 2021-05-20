@@ -1,0 +1,356 @@
+.body
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat';
+	font-size: 16px;
+	line-height: 1.6;
+	color: #000000;
+}
+
+.container
+{
+	padding: 16px 10%;
+}
+
+h1
+{
+	padding: 0;
+	margin: 0;
+	height: 40px; 
+	font-size: auto;
+	color: #000000;
+	background-color: #FFCF00;
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-size: 26px;
+	text-align: center;
+}
+
+h2
+{
+	padding: 4px;
+	margin: 0;
+	font-size: auto;
+	color: #000000;
+	background-color: #FFCF00;
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-size: 20px;
+	text-align: center;
+}
+
+/* header */
+
+.header
+{
+	font-size: 1.5em;
+	font-weight: 500;
+}
+
+.urfu_logo
+{
+	width: 200px;
+	height: 100px;
+	background-image: url(../images/urfulogo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: inline-block;
+}
+
+.phone_link
+{
+	color: #214B97;
+}
+
+.nav
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+a
+{
+	text-decoration: none;
+	color: #000000
+}
+
+/* выбор уровня обучения */
+
+.level_menu
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+
+}
+
+.level_btn
+{
+	display: flex;
+	align-items: flex-end;
+	flex-basis: 32%;
+	height: 150px;
+	margin: 0;
+	padding: 0;
+	color: #1A3F83;
+	background-color: #c4c4c4c2;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border: 0;
+	cursor: pointer;
+	-webkit-transition: color .3s, background-color .3s, background-size .3s, -webkit-transform .3s;
+    transition: color .3s, background-color .3s, background-size .3s, transform .3s;
+}
+
+.level_btn:hover
+{
+	color: #ffffff;
+	background-color: #1A3F83;
+	background-size: 105%;
+	transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear; 
+}
+
+.btn_text
+{
+	vertical-align: bottom;
+	padding: 4px;
+	width: 100%;
+	font-size: 24px;
+	background-color: inherit;
+	color: inherit;
+	text-align: center;
+	font-family: 'Montserrat';
+	font-weight: 500;
+}
+
+.bakalavriat_btn
+{
+	background-image: url(../images/bakalavriat.png);
+}
+
+.magistratura_btn
+{
+	background-image: url(../images/magistratura.png);
+}
+
+.aspirantura_btn
+{
+	background-image: url(../images/aspirantura.png);
+}
+
+/* главный блок навигации */
+
+.main_nav
+{
+	display: flex;
+	margin: auto;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+/* навигация по институтам */
+
+.institutes_nav
+{
+	padding: 0;
+	margin: 0;
+	flex-basis: 20%;
+}
+
+.nav_inner
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #9AC4FE;
+	padding: 4px 0px;
+}
+
+.nav_item
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #9AC4FE;
+	width: 90%;
+	margin: 4px 8px;
+}
+
+.nav_text
+{
+	background-color: #214B97;
+	color: #ffffff;
+	font-size: 14px;
+	width: 80%;
+	border-radius: 4px;
+	padding-left: 4px;
+}
+
+.nav_btn
+{
+	appearance: none;
+	border: 2px solid #214B97;
+	border-radius: 4px;
+	background-color: #9AC4FE;
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+}
+
+.nav_btn:hover
+{
+	color: #ffffff;
+	background: #ffffff;
+	transition: all .3s linear;
+	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear; 
+}
+
+/* видосики */
+
+.videos_stack
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+	flex-basis: 50%;
+}
+
+.videos_search
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+
+}
+
+.search_btn
+{
+	border-top: 1.5px solid #214B97;
+	border-right: 1.5px solid #214B97;
+	border-bottom: 1.5px solid #214B97;
+	border-left: 0;
+	background-color: #9AC4FE;
+	height: 40px;
+	width: 40px;
+	border-radius: 0 3px 0 0;
+	cursor: pointer;
+}
+
+.search_btn:before
+{
+	content: "\f002";
+	font-family: FontAwesome;
+	font-size: 20px;
+  	color: #ffffff;
+}
+
+.search
+{
+	border-top: 1.5px solid #214B97;
+	border-left: 1.5px solid #214B97;
+	border-bottom: 1.5px solid #214B97;
+	border-right: 0;
+	font-family: 'Montserrat';
+	font-size: 20px;
+	width: 100%;
+	height: 40px;
+	border-radius: 3px 0 0 0;
+}
+
+.videos_list
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: flex-start;
+	flex-wrap: wrap;
+
+	height: 2000px;
+	width: 100%;
+	background-color: #9AC4FE;
+}
+
+video
+{
+	width: 225px;
+	margin: 8px;
+}
+
+/* список мероприятий */
+
+.events_nav
+{
+	padding: 0;
+	margin: 0;
+	flex-basis: 25%;
+	background-color: #9AC4FE;
+}
+
+.event_item
+{
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: left;
+	background-color: #ffffff;
+	margin: 6px;
+}
+
+.event_photo
+{
+	height: 50%;
+	background-size: cover;
+}
+
+.event_name
+{
+	padding: 0px;
+	margin: 3px;
+	line-height: 1;
+	font-size: 18px;
+	font-weight: 300;
+	text-decoration: underline;
+}
+
+.event_date
+{
+	padding: 0px;
+	margin: 3px;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+.event_description
+{
+	padding: 0px;
+	margin: 3px;
+	font-size: 12px;
+	font-weight: 300;
+	color: #646464;
+}
+
+.event1
+{
+	background-image: url(../images/event1.jpg);
+}
+
+.event2
+{
+	background-image: url(../images/event2.jpg);
+}
