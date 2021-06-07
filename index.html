@@ -11,7 +11,6 @@
 
 <body class="body">
 
-
 <header class="header">
 	<div class="container">
 		<nav class="nav">
@@ -23,15 +22,31 @@
 
 <div class="container">
 	<div class="level_menu">
-		<button class="level_btn bakalavriat_btn" type = "radio" name="level_btn" value="bakalavriat_btn">
+		<label class="level_item bakalavriat_btn" for="bakalavriat_btn">
+			<input class="level_btn" id="bakalavriat_btn" type='radio' name="tag" value="бакалавриат">
 			<div class="btn_text">Бакалавриат</div>
-		</button>
-		<button class="level_btn magistratura_btn" type = "radio" name="level_btn" value="magistratura_btn">
+		</label>
+		<label class="level_item magistratura_btn" for="magistratura_btn">
+			<input class="level_btn" id="magistratura_btn" type='radio' name="tag" value="магистратура">
 			<div class="btn_text">Магистратура</div>
-		</button>
-		<button class="level_btn aspirantura_btn" type = "radio" name="level_btn" value="aspirantura_btn">
+		</label>
+		<label class="level_item aspirantura_btn" for="aspirantura_btn">
+			<input class="level_btn" id="aspirantura_btn" type='radio' name="tag" value="аспирантура">
 			<div class="btn_text">Аспирантура</div>
-		</button>
+		</label>
+
+		<!-- <div class="level_item bakalavriat_btn">
+			<input class="level_btn" id="bakalavriat_btn" type='radio' name="level" value="бакалавриат">
+			<label class="btn_text" for='bakalavriat_btn'>Бакалавриат
+		</div>
+		<div class="level_item magistratura_btn">
+			<input class="level_btn" id="magistratura_btn" type='radio' name="level" value="магистратура">
+			<label class="btn_text" for='magistratura_btn'>Магистратура
+		</div>
+		<div class="level_item aspirantura_btn">
+			<input class="level_btn" id="aspirantura_btn" type='radio' name="level" value="аспирантура">
+			<label class="btn_text" for='aspirantura_btn'>Аспирантура
+		</div> -->
 	</div>
 </div>
 
@@ -41,104 +56,96 @@
 			<h1>Институт</h1>
 			<div class="nav_inner">
 				<div class="nav_item">
-					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
-					<div class="nav_text">ИЕНиМ</div>
+					<input class="nav_btn" type="radio" name="tag" value="иеним">
+					<label class="nav_text">ИЕНиМ
 				</div>
 				<div class="nav_item">
-					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
-					<div class="nav_text">ИНМиТ</div>
+					<input class="nav_btn" type="radio" name="tag" value="инмит">
+					<label class="nav_text">ИНМиТ
 				</div>
 				<div class="nav_item">
-					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
-					<div class="nav_text">ИнФО</div>
+					<input class="nav_btn" type="radio" name="tag" value="инфо">
+					<label class="nav_text">ИнФО
 				</div>
 				<div class="nav_item">
-					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
-					<div class="nav_text">ИнЭУ</div>
+					<input class="nav_btn" type="radio" name="tag" value="инэу">
+					<label class="nav_text">ИнЭУ
 				</div>
 				<div class="nav_item">
-					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
-					<div class="nav_text">ИРИТ-РТФ</div>
+					<input class="nav_btn" type="radio" name="tag" value="ртф">
+					<label class="nav_text">ИРИТ-РТФ
 				</div>
 				<div class="nav_item">
-					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
-					<div class="nav_text">ИСА</div>
+					<input class="nav_btn" type="radio" name="tag" value="иса">
+					<label class="nav_text">ИСА
 				</div>
 				<div class="nav_item">
-					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
-					<div class="nav_text">ИТОО</div>
+					<input class="nav_btn" type="radio" name="tag" value="итоо">
+					<label class="nav_text">ИТОО
 				</div>
 				<div class="nav_item">
-					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
-					<div class="nav_text">ИФКСиМП</div>
+					<input class="nav_btn" type="radio" name="tag" value="ифксимп">
+					<label class="nav_text">ИФКСиМП
 				</div>
 				<div class="nav_item">
-					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
-					<div class="nav_text">УГИ</div>
+					<input class="nav_btn" type="radio" name="tag" value="уги">
+					<label class="nav_text">УГИ
 				</div>
 				<div class="nav_item">
-					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
-					<div class="nav_text">УралЭНИН</div>
+					<input class="nav_btn" type="radio" name="tag" value="ураэнин">
+					<label class="nav_text">УралЭНИН
 				</div>
 				<div class="nav_item">
-					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
-					<div class="nav_text">ФТИ</div>
+					<input class="nav_btn" type="radio" name="tag" value="фти">
+					<label class="nav_text">ФТИ
 				</div>
 				<div class="nav_item">
-					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
-					<div class="nav_text">ХТИ</div>
+					<input class="nav_btn" type="radio" name="tag" value="хти">
+					<label class="nav_text">ХТИ
 				</div>
 				<div class="nav_item">
-					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
-					<div class="nav_text">ВУЦ</div>
+					<input class="nav_btn" type="radio" name="tag" value="вуц">
+					<label class="nav_text">ВУЦ
 				</div>
 			</div>
 			<h2>Дополнительно</h2>
 			<div class="nav_inner">
 				<div class="nav_item">
-					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
-					<div class="nav_text">ИОТ</div>
+					<input class="nav_btn" type="radio" name="tag" value="иот">
+					<label class="nav_text">ИОТ
 				</div>
 				<div class="nav_item">
-					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
-					<div class="nav_text">Программы обучения</div>
+					<input class="nav_btn" type="radio" name="tag" value="программы">
+					<label class="nav_text">Программы обучения
 				</div>
 				<div class="nav_item">
-					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
-					<div class="nav_text">Зачисление</div>
+					<input class="nav_btn" type="radio" name="tag" value="зачисление">
+					<label class="nav_text">Зачисление
 				</div>
 				<div class="nav_item">
-					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
-					<div class="nav_text">Дни открытых дверей</div>
+					<input class="nav_btn" type="radio" name="tag" value="дни">
+					<label class="nav_text">Дни открытых дверей
 				</div>
 				<div class="nav_item">
-					<button class="nav_btn" type="radio" name="tag" value="IENIM"></button>
-					<div class="nav_text">Сериал "Прием, УрФУ!"</div>
+					<input class="nav_btn" type="radio" name="tag" value="сериал">
+					<label class="nav_text">Сериал "Прием, УрФУ!"
+				</div>
+				<div class="nav_item">
+					<input class="nav_btn" type="radio" name="tag" value="другое">
+					<label class="nav_text">Другое
 				</div>
 			</div>
 		</div>
-		<div class="videos_stack">
-			<form action="" method="get" class="videos_search">
-				<input class="search" name="s" placeholder="Поиск" type="search">
-				<button class="search_btn" type="submit"></button>
-			</form>
-			<div class="videos_list">
-				<video id="player" width="100%" height="auto" autoplay="autoplay" controls>
- 					<source src="https://vk.com/video-22301031_456239388" type="video/mp4" codecs="avc1.42E01E, mp4a.40.2">
-				</video>
-				<video id="player" width="100%" height="auto" autoplay="autoplay" controls>
- 					<source src="https://vk.com/video-22301031_456239388" type="video/mp4" codecs="avc1.42E01E, mp4a.40.2">
-				</video>
-				<video id="player" width="100%" height="auto" autoplay="autoplay" controls>
- 					<source src="https://vk.com/video-22301031_456239388" type="video/mp4" codecs="avc1.42E01E, mp4a.40.2">
-				</video>
-				<video id="player" width="100%" height="auto" autoplay="autoplay" controls>
- 					<source src="https://vk.com/video-22301031_456239388" type="video/mp4" codecs="avc1.42E01E, mp4a.40.2">
-				</video>
-
+		<div class="videos_nav">
+			<div class="videos_search">
+				<input class="search_field" id="search_bar" name="s" placeholder="Поиск" type="search">
+				<button class="search_btn" id="search_btn" type="button" onclick="videoSearch()"></button>
+			</div>
+			<div class="videos_stack" id="video_stack">
+				
 			</div>
 		</div>
-		<div class="events_nav">
+		<!-- <div class="events_nav">
 			<h1><a href="https://urfu.ru/ru/events/" target="_blank">Мероприятия</a></h1>
 			<div class="event_item">
 				<a class="event_photo event1" href="https://urfu.ru/ru/events/10865/" target="_blank"></a>
@@ -152,7 +159,7 @@
 				<div class="event_date">1 июня</div>
 				<div class="event_description">Что ждет абитуриентов 2021 года?</div>
 			</div>
-		</div>
+		</div> -->
 	</div>
 </div>
 
@@ -160,5 +167,5 @@
 
 
 </body>
-
+<script src="scripts.js"></script>
 </html>
