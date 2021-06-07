@@ -12,6 +12,8 @@ videoList.set("инмит бакалавриат", "https://vk.com/video_ext.php
 videoList.set("инмит ртф бакалавриат", "https://vk.com/video_ext.php?oid=-22301031&id=456239397&hash=eabad8ce1750a7d8&hd=2");
 videoList.set("инмит инфо бакалавриат", "https://vk.com/video_ext.php?oid=-22301031&id=456239397&hash=eabad8ce1750a7d8&hd=2");
 videoList.set("ртф итоо бакалавриат", "https://vk.com/video_ext.php?oid=-22301031&id=456239397&hash=eabad8ce1750a7d8&hd=2");
+videoList.set("Программы департамента фундаментальной и прикладной физики ИЕНиМ ", "https://vk.com/video_ext.php?oid=-22301031&id=456239251&hash=21dc5aa4523ebd71&hd=2");
+
 
 addVideos(videoList);
 
